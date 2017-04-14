@@ -20,7 +20,7 @@
   var g = new THREE.BoxBufferGeometry( 1, 1, 1 );
   var m = new THREE.MeshBasicMaterial( { map: kitten } );
   var c = new THREE.Mesh( g, m );
-  var a = new THREE.Vector3( -5, -12, 10 );
+  var a = new THREE.Vector3( 5, -12, 10 );
 
   var duckling = new THREE.TextureLoader().load( "/images/duckling.jpg" );
 
